@@ -67,7 +67,7 @@ Then, rather than using a nested for loop to run through each line of code, the 
               tickerEndingPrices(i) = 0
           Next i
           
-Next a second for loop was created to take advantage of the ticker index to first find the volume, then find starting and ending prices (for the return calculation). and finally advance to the next ticker in the ticker index:
+Next a second for loop was created to take advantage of the ticker index to first find the volume, then find starting and ending prices (for the return calculation), and finally advance to the next ticker in the ticker index:
 
             For i = 2 To RowCount
     
@@ -125,4 +125,4 @@ The disadvantage of refactoring code may include:
 
 ### How do these pros and cons apply to refactoring the original VBA script?
 
-After refactoring the code, it was easier to read and made more efficient use of code patterns. Though cost was not an issue, refactoring the original code for the exercise did take significant time. This is primarily due to unfamiliarity with VBA script. However, the time necessary to a) reinvision the scritp and b) determine how to write the new script would probably be significant even with greater familiarity with VBA script.
+After refactoring the code, it was easier to read and made more efficient use of code patterns. Though cost was not an issue, refactoring the original code for the exercise did take significant time. This is primarily due to unfamiliarity with VBA script. However, the time necessary to a) reinvision the script and b) determine how to write the new script would probably be significant even with greater familiarity with VBA script.
